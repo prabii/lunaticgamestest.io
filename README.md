@@ -1,2 +1,2 @@
-# Lunatic Games Landing Page
+lunaticgamestest123.io
 
