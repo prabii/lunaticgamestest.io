@@ -1,0 +1,361 @@
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+    font-family: prat;
+    src: url(font/PraetoriaD.otf)
+}
+
+/*@font-face {
+    font-family: poppins;
+    src: url(font/GlacialIndifference-Italic.otf)
+}*/
+.prat_text {
+    font-size: 94px !important;
+    color: #fff;
+    font-family: 'prat';
+    text-shadow: 0 0 22px #0def29, 0 0 14px #00ff4e;
+        font-size: 6rem;
+}
+
+p {
+   /* letter-spacing: 3px;
+    font-size: 24px;*/
+    font-family: 'poppins';
+   }
+
+   .prat_font {
+    font-family: 'prat' !important;
+   }
+
+   .font2 {
+   /* letter-spacing: 3px;
+    font-size: 24px;*/
+    font-family: 'poppins';
+   }
+
+   .list_style {
+   list-style-type:disc;
+   }
+
+
+
+.center {
+	
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%!important;
+}
+
+.red{
+    color: #ef110d;
+}
+
+/*.nav_menu h6{
+    font-size: 19px;
+    cursor: not-allowed;
+}*/
+.nav_menu a{
+    text-decoration: none;
+}
+
+.nav_menu a h6{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'prat';
+}
+
+.nav_menu h6:hover{
+    color: grey;
+}
+
+.nav_menu a h6:hover{
+    color: #ffe77aff;
+}
+
+.neoh_fn_team .t_item,.item_content{
+    box-shadow: 5px 9px 15px #000;
+}
+.li_width{
+    width: 100% !important;
+}
+
+.transparent_box{
+    padding: 20px;
+    background-color: #0000006b;
+    box-shadow: 5px 9px 15px #000;
+}
+
+
+/*************hover button effect*****************************/
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #000;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000d6;
+    border-radius: 8px;
+    border: 1px solid #252525;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  font-family: 'prat';
+}
+
+.audio {
+  display: hidden;
+}
+
+z
+/*************************about info*********************/
+.about-dropdown:hover .dropdown-about {display: block;}
+
+.about-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-about {
+  display: none;
+  position: absolute;
+    top: 10%;
+  background-color: #000000d6;
+    border-radius: 8px;
+    border: 1px solid #252525;
+  min-width: 70%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+/***************************fllip card******************************/
+
+/* 88888888FLIPCARD&&&&&&&&&&&&& */
+.flipcard{
+    width: 300px;
+    height: 420px;
+    overflow: hidden;
+    
+    
+}
+.flipcardback{
+    
+    color: #fff;
+    transform: rotateY(180deg);
+
+}
+.flipcardinner{
+    position: relative;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    background: #0000006b;
+    border-radius: 20px;
+}
+.flipcardback,.flipcardfront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+   
+}
+
+.flipcard:hover .flipcardinner{
+    transform: rotateY(180deg);
+}
+/* 88888888FLIPCARD&&&&&&&&&&&&& */
+
+
+.flipcardfront H3{
+    text-align: center;
+    color: #3D72A4;
+    font-weight: bolder;
+    margin: auto;
+    padding: 20px;
+}
+.flipheader{
+    height: 20%;
+    
+    
+}
+
+.flipcardfront .img_holder{
+    border-radius: 20px;
+    
+    
+}
+.flipbody{
+    height: 80%;
+    padding: 20px;
+
+}
+.flipbody h6{
+    color: #3D72A4;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+   
+    
+}
+.flipbody .fas, .flipbody .fab {
+    color: #3D72A4BF;
+    font-size: 5rem;
+    z-index: -1;
+
+}
+
+.flipbody  .aa{
+    font-size: 21rem;
+    transform: translateX(30px);
+}
+
+.flipcardback p{
+
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+.ehyMkl {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    cursor: pointer;
+    animation: 2s ease 0s 1 normal none running jBcSpD;
+}
+
+.icon {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+}
+
+
+  @keyframes grow {
+  10% {
+    transform: scaleY(0.3); /* start by scaling to 30% */
+  }
+
+  30% {
+    transform: scaleY(1); /* scale up to 100% */
+  }
+
+  60% {
+    transform: scaleY(0.5); /* scale down to 50% */
+  }
+
+  80% {
+    transform: scaleY(0.75); /* scale up to 75% */
+  }
+
+  100% {
+    transform: scaleY(0.6); /* scale down to 60% */
+  }
+}
+
+.icons {
+  width: 3px;
+  height: 100%;
+  background-color: green;
+  border-radius: 3px;
+  animation: grow 3.2s ease infinite alternate;
+  content: '';
+}
+
+.iconss {
+    display: none;
+  width: 3px;
+  height: 100%;
+  background-color: grey;
+  border-radius: 3px;
+}
+
+  .icons:nth-of-type(2) {
+    animation-delay: -2.2s; /* Start at the end of animation */
+  }
+
+  .icons:nth-of-type(3) {
+    animation-delay: -3.7s; /* Start mid-way of return of animation */
+  }
+
+
+/********************************loader*******************************/
+
+.loader {
+  position: absolute;
+  /*top: 50vh; right: 0; left: 0; bottom: 0;*/
+  margin: auto;
+  background-image: linear-gradient(to right,#000000 , #03342e,#000000);
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.loader .image {
+  width: 100px;
+  height: 160px;
+  font-size: 60px;
+  text-align: center;
+  transform-origin: bottom center;
+  animation: 3s rotate infinite;
+  opacity: 0;
+  color: white;
+  position: relative;
+  left: 45vw;
+  top: 37vh;
+  text-shadow: 0 0 22px #0def29, 0 0 14px #00ff4e;
+}
+.loader span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-family: 'prat';
+  top: 50vh;
+  margin: auto;
+  font-size: 70px;
+  text-shadow: 0 0 22px #0def29, 0 0 14px #00ff4e;
+}
+
+@keyframes rotate{
+  0% {
+    transform: rotate(90deg);
+  }
+  10% {
+    opacity: 0;
+  }
+  35% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  65% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+
